@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/homeshef.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <div id="user">
+<div id="">
+    Hi  <span id="name"></span>
+</div>
+<div id="email">
+
+</div>
+    </div>
+    <form>
+        <div>
+            <label>Customer:</label>
+            <input type="text" id="inputName"/>
+        </div>
+        <div>
+            <label>Order:</label>
+            <select id="select">
+                <option value="salmon">salmon</option>
+                <option value="pizza">pizza</option>
+                <option value="spagity">spagity</option>
+            </select>
+        </div>
+        <div>
+            <button id="saveData" >ask for cheif</button>
+        </div>
+    </form>
+    <div id="btnn">
+        <button id="remove" >remove content</button>
+        <button onclick=" deleteLocal()" id="delete" >delete local storage</button>
+    </div>
+
+    <div id="list">
+
+    </div>
+  </div>
+  
+ <script src="./js/homeshef.js"></script>
+
+</body>
+</html>
